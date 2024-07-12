@@ -1,0 +1,36 @@
+.calculator__btn {
+    all: unset;
+    font-weight: 500;
+    color: #F2F2F2;
+    font-size: 36px;
+    line-height: 88px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.calculator__btn_equals{
+    background-color: #fff;
+    border-radius: 50%;
+    color: #2B589A;
+}
+
+.calculator__btn:hover {
+    cursor: pointer;
+    z-index: 1;
+}
+
+.calculator__btn:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 12%;
+    z-index: 2;
+}

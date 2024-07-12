@@ -1,0 +1,31 @@
+.calculator__inputs {
+    text-align: right;
+    max-width: 460px;
+    width: 100%;
+    margin: 0 auto 30px auto;
+
+}
+
+.calculator__input {
+    all: unset;
+    color: #F2F2F2;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    height: 117px;
+    margin-bottom: 10px;
+
+}
+
+.calculator__total {
+    color: #F2F2F2;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+.calculator__line {
+    border-bottom: 2px solid #fff;
+    opacity: 35%;
+}
